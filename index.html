@@ -11,9 +11,130 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
     <title>Bootstrap4Drills</title>
   </head>
   <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1>First Bootstrap Project</h1>
+      </div>
+      <div class="row">
+        <div class="col-4 p-0 text-muted">That's not a knife</div>
+        <div class="col-4 p-0 text-muted text-center">*pulls out a knife*</div>
+        <div class="col-4 p-0 text-muted text-right">Thats a knife</div>
+      </div>
+
+      <div class="row">
+        <form class="col-12 border border-primary p-3">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="cat" />
+            <label class="form-check-label" for="exampleCheck1">Cats</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="dog" />
+            <label class="form-check-label" for="exampleCheck1">Dogs</label>
+          </div>
+          <div class="form-group form-radio">
+            <input type="radio" class="form-radio-input" id="cPizza" />
+            <label class="form-radio-label" for="exampleCheck1"
+              >Cheese Pizza</label
+            >
+          </div>
+          <div class="form-group form-radio">
+            <input type="radio" class="form-radio-input" id="hPizza" />
+            <label class="form-radio-label" for="exampleCheck1"
+              >Hawaiian Pizza</label
+            >
+          </div>
+          <div class="form-group form-radio">
+            <input type="radio" class="form-radio-input" id="sPizza" />
+            <label class="form-radio-label" for="exampleCheck1"
+              >Supreme Pizza</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Confirm Identity
+          </button>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="card col-4">
+          <div class="card-body">
+            <h2>Luke Skywalker</h2>
+            Luke Skywalker is a pivotal figure in the Rebel Alliance's struggle
+            against the Glatic Empire, a friend and eventual brother -in law of
+            smuggler Han Solo, and unknown to him until Return of the Jedi, the
+            twin brother of Rebellion leader Princess Leia.
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <h2>Han Solo</h2>
+            Han Solo is a smuggler and a former member of the Alliance to
+            Restore the Republic, a group of rebels who have been secretly
+            recruited by the Empire to aid in the destruction of the Galactic
+            Empire.
+          </div>
+        </div>
+
+        <div class="card col-4">
+          <div class="card-body">
+            <h2>Princess Leia</h2>
+            Princess Leia is a former member of the Alliance to Restore the
+            Republic, a group of rebels who have been secretly recruited by the
+            Empire to aid in the destruction of the Galactic Empire.
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <h2>Chewbacca</h2>
+            He is a Wookiee, a member of the Rebel Alliance, and a former member
+            of the Alliance to Restore the Republic, a group of rebels who have
+            been secretly recruited by the Empire to aid in the destruction of
+            the Galactic Empire.
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <h2>Obi Wan Kenobi</h2>
+            In the original trilogy, he is a mentor to Luke Skywalker, and a
+            former pupil of the Jedi Master Yoda.
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <h2>Mara Jade</h2>
+            She appears in the now non-canon Legends series, as the wife of Luke
+            Skywalker and mother of Ben Skywalker.
+          </div>
+        </div>
+      </div>
+      <!-- Card exercise End-->
+    </div>
+    <!--End of container-->
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
